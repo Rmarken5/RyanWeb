@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	height: 100%;
+	overflow-y:auto;
+}
+
+.content-area {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+	margin: 0px;
+	color:#E7DFDD;
+	text-decoration: none;
+	font-family: 'M PLUS 1p', sans-serif;
+	text-shadow: 0 1px black;
+	background-image: url("../images/content-area-background.jpg");
+	background-size: 100%, 100%;
+	background-repeat: repeat-y;
+	border: 2px solid black;
+	overflow-y:auto;
+}
+
+.content{
+	
+	display: flex;
+	flex-direction: column;
+	width:900px;
+	margin-top:150px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(122,122,122,0.5);
+	padding:20px;
+	border:3px solid black;
+	
+}
